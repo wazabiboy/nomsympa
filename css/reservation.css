@@ -1,0 +1,305 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+
+
+
+/*------------------------------------------------------------------
+    BODY HTML
+-------------------------------------------------------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+body {
+    font-family: 'Raleway', "Source Sans Pro", "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    color: #999;
+    font-size: 12px;
+    line-height: 1.80857;
+}
+
+.second-title {
+    font-family: 'Raleway';
+    font-size: 2.4 em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 0 10px 0;
+    line-height: 120% !important;
+    color: #e62d2d; 
+    margin: 0
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 0 10px 0;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
+}
+
+.logi
+
+{ 
+    border: solid;
+    margin: 10px;
+    width: 180px;
+    height: 220px;
+    float: left; 
+}
+h2::after {
+    width: 65px;
+    height: 5px;
+    content: "";
+    background: #fbcf00;
+    position: relative;
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.4m;
+    width: auto;
+}
+
+
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/reservation.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+  
+  
+  }
+
+
+}
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* header title */
+#header-inner {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.header-title {
+    color: rgb(0, 0, 0);
+    
+    font-size: 6em;
+    text-transform: uppercase;
+      text-shadow: black 0.1em 0.1em 0.1em;
+
+}
+
+.logo
+{
+    width: 26px;
+    height: 26px;
+}
+
+/*------------------------------------------------------------------
+    NAV-BAR
+-------------------------------------------------------------------*/
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 100px;
+    z-index: 2;
+    
+   
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(7, 7, 2, 0.8);
+    border-bottom: : 1px solid black
+    width: 50px;
+    height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    border: 2px solid rgba(154, 214, 211,0.2);
+    background-color: rgba(rgb(27, 19, 19), green, blue, 0.3);
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+/*------------------------------------------------------------------
+    ABOUT US
+-------------------------------------------------------------------*/
+#about-us {
+    margin:10em 0;
+    padding:4em ;
+}
+.read-more {
+    background: #010201;
+    color: #111;
+    font-weight: 900;
+    padding: 10px 10px;
+    float: left;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: ease all 1s;
+    text-decoration: none;
+    
+}
+
+.read-more:hover {
+    color: #070604;
+    background: #111;
+    text-decoration: none;
+}
+
+/*------------------------------------------------------------------
+    SERVICES
+-------------------------------------------------------------------*/
+#service {
+    margin:5em 0;
+    padding:2em ;  
+}
+
+.serv-blog, .serv-blog-cont, .serv-blog-cont h3 {
+    text-align: center;
+    color: #435c09;
+}
+
+.serv-blog img {
+    width: 4.5em;
+    margin: 1em;
+}
+
+.serv {
+    padding: 3em 1em;
+}
+.serv h3 {
+    font-size: 1.2em;
+}
+.serv p {
+    
+    font-size:1em;
+}
+
+/*------------------------------------------------------------------
+    REALISATIONS
+-------------------------------------------------------------------*/
+#realisations {
+    margin:9em ;
+    padding:4em ; 
+ 
+   
+    
+}
+
+/*------------------------------------------------------------------
+    CONTACT
+-------------------------------------------------------------------*/
+#contact {
+    margin:5em 0;
+    padding:2em ; 
+    background: url(../assets/marseille-big-plan.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color:wheat;
+}
+
+
+#contact p{
+    font-size: 1.2em;
+}
+
+
+div
+{
+font-size: bold;
+background-color: black
+    color: red;}
+
+.dropdown-menu    {
+
+        font-size: 1.4em;
+        position: fixed;
+
+    }
+
+.container    {
+
+        position: relative;
+}
+
+
